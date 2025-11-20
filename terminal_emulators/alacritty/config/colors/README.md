@@ -51,6 +51,8 @@ In `[colors.primary]`, you typically see:
 
 ### `normal`, `bright`, `dim`
 
+External applications use the `[colors.normal]`, `[colors.bright]`, and `[colors.dim]` palettes to render text according to the ANSI color codes they emit. For instance, a program like `ls` or `htop` outputs text with specific ANSI codes (0-7 for normal, 8-15 for bright), and Alacritty maps these codes to the hexadecimal colors defined in the configuration. Dimmed text, often used for less important or inactive elements, references the `[colors.dim]` palette. By defining these tables, Alacritty ensures consistent visual output across all terminal applications, independent of their internal color schemes.
+
 * `[colors.normal]` maps the standard 8 ANSI colours: black, red, green, yellow, blue, magenta, cyan, white.
 * `[colors.bright]` maps the “bright” variants of those same colours (so e.g. bright red, bright green …).
 * `[colors.dim]` is for dimmed colours; if omitted the values are calculated automatically.
