@@ -1,4 +1,4 @@
-# `<sub-command` e.g. `commit`
+# `<sub-command>` e.g. `commit`
 
 ## Overview
 
@@ -17,6 +17,18 @@ Present the canonical syntax of the sub-command, showing its structural pattern.
 Identify the essential elements required for the sub-command to execute successfully.
 
 Note optional elements that affect the sub-command’s execution or outcome (exclude detailed switches/flags).
+
+---
+
+## Switches
+
+Document each switch supported by the sub-command.
+
+For each switch, specify its short and long form (if applicable), whether it is optional or required, and its default behavior.
+
+Describe the operational impact of the switch, including how it modifies or augments the sub-command’s execution.
+
+Call out any constraints, incompatibilities, or interactions with other switches.
 
 ---
 
