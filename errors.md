@@ -12,4 +12,4 @@ Error: Os(OsError { line: 765, file: "/build/.cargo/registry/src/index.crates.io
 
 The errors above are raised when you try to run a graphical application when not in a graphical session context (from a tty).
 
-This can also happen if you run the application from a tmux session, and tmux was started from a tty. Since tmux was run from a tty, it won't have the `WAYLAND_DISPLAY` or `DISPLAY` environment variables set.
+This can also happen if you run the application from a tmux session, and tmux was started from a tty. Since tmux was run from a tty, it won't have the `WAYLAND_DISPLAY` or `DISPLAY` environment variables set, and therefore the graphical applications won't work. To fix this, you can close all tmux ressions, and start it from within a graphical session like sway.
