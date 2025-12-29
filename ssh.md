@@ -36,4 +36,9 @@ The type of key to generate is specified by the `-t` flag in the `ssh-keygen` co
 + `ssh-agent` holds private keys and uses them for automatic authentication when logging in to other machines.
 + `ssh-add` is used to add private keys to `ssh-agent`, because the agent doesn't have any private keys initially. This needs to be done every time the agent is started like after restarting the machine.
 
+```sh
+eval $(ssh-agent)
+ssh-add id_ed25519
+```
+
 ---
