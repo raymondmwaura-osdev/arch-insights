@@ -12,3 +12,16 @@ tar -x -f file.tar.gz
 + `-f`: Specify which file to extract.
 
 ---
+
+## Zip Files
+
+```bash
+# Extract zip files:
+unzip archive.zip
+
+# Create zip files
+zip output.zip file
+zip -r output.zip directory
+```
+
+---
