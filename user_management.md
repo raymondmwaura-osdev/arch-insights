@@ -1,6 +1,8 @@
 # User Management
 
-## Create A User
+## Setup a New User
+
+### Create The User
 
 ```
 useradd --create-home -G wheel raymond
@@ -10,11 +12,11 @@ useradd --create-home -G wheel raymond
 + `-G wheel`: Add the user to the `wheel` group. That group is commonly used for `sudo` access.
 + `raymond`: The username.
 
-## Set User's Password
+### Set User's Password
 
 `passwd raymond`, then enter the user's password twice.
 
-## Allow User to Use Sudo
+### Allow User to Use Sudo
 
 Securely edit the sudoers file.
 
