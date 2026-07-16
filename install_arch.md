@@ -167,5 +167,6 @@ These are the packages I've installed after installing arch linux.
 + `man-db`: Package with the `man` command.
 + `imv`: Image viewer for X11 and Wayland, aimed at users of tiling window managers.
 + `wl-clipboard`: Copy paste type shii. Keystash needs this.
++ `brightnessctl`: For adjusting the brightness. Sway uses this in its config files.
 + Self-explanatory ones: `git`, `firefox`, `tmux`, `which`, `sway`, `alacritty`, `ssh`, `wofi`, `nvim`, `waybar`, `sudo`
 + **Python**: `python-virtualenv`, `python-pip`
