@@ -19,7 +19,7 @@ Create a config file in `/etc/systemd/network`. The file must end in `.network`.
 
 ```
 [Match]
-name=wlan0
+Name=wlan0
 
 [Network]
 DHCP=yes
